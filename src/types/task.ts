@@ -1,5 +1,5 @@
 export interface Task {
-  id: Date | string
+  id: string
   title: string;
   completed: boolean;
   createdAt: string;
